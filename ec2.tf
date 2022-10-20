@@ -18,7 +18,7 @@ locals {
 variable "ec2type" {
     description = "this is my ec2 instance type"
     type = string
-    default = "t2.micro"
+    default = "t2.medium"
 }
 
 output "ec2_ip" {

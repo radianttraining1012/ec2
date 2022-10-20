@@ -7,7 +7,7 @@ resource "aws_instance" "myec2" {
 
 
 locals {
-  # Common tags to be assigned to all resources
+  # Common tags to be assigned to all resources..
   common_tags = {
     Service = "appservice"
     Owner   = "birlasoft"
